@@ -29,7 +29,7 @@ Your second requirement is to run linear regression on each relationship, only t
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 
-![Northern Hemisphere](data_images/Norther_MaxTemp_Lat.png)
+![Northern](data_images/Norther_MaxTemp_Lat.png)
 
 
 * Southern Hemisphere - Temperature (F) vs. Latitude
