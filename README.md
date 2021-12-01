@@ -7,9 +7,7 @@ Whether financial, political, or social -- data's true power lies in its ability
 Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
 
-
 ![Equator](Images/equatorsign.png)
-
 
 ## Part I - WeatherPy
 
@@ -22,8 +20,6 @@ First requirement is to create a series of scatter plots to showcase the followi
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-
-
 Second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
@@ -34,7 +30,6 @@ Second requirement is to run linear regression on each relationship, only this t
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
-
 
 Final notebook:
 
@@ -49,7 +44,7 @@ Now let's use skills in working with weather data to plan future vacations. Use 
 
 * Create a heat map that displays the humidity for every city from the part I.
 
-  ![heatmap](data)images/heat_map.png)
+  ![heatmap](data_images/heat_map.png)
 
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
@@ -61,6 +56,7 @@ Now let's use skills in working with weather data to plan future vacations. Use 
 
   * Drop any rows that don't contain all three conditions. To be sure the weather is ideal.
 
+ 
 * Using Google Places API to find the first hotel for each city located within 5000 meters of the coordinates.
 
 * Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
@@ -68,5 +64,6 @@ Now let's use skills in working with weather data to plan future vacations. Use 
   ![hotel map](data_images/hotel_map.png)
 
 
+- - -
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
